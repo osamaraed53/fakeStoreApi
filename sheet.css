@@ -1,0 +1,41 @@
+
+/* bootstrap */
+span{
+    color: white;
+}
+
+
+.bg-dark{
+    background-color: #2e2e36;
+}
+#cardsOfFake{
+    padding: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cardsOfFake div{
+    margin: 3%;
+    height: 35nprem;
+    /* overflow: hidden */
+}
+#cardsOfFake div img{
+    height: 20rem;
+    width: 100%;
+}
+
+
+/* form  */
+#form form{
+    display: flex;
+    flex-direction: column;
+}
+#form>*{
+    margin: 5%;
+    border-radius: 30px;
+    align-content: center; 
+    justify-content: center;
+}
+#add_button{
+    background-color:#00b68b;
+}
